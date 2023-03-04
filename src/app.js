@@ -3,6 +3,7 @@ import { calculateSubtotal, decrementQty, incrementQty } from './helpers.js';
 const incrButton = document.querySelector('#incr');
 const decrButton = document.querySelector('#decr');
 const qtyInput = document.querySelector('#qty');
+
 const price = document.querySelector('#price');
 const subtotal = document.querySelector('#subtotal');
 const kodePromo = document.querySelector('#code');
