@@ -1,8 +1,9 @@
 const {
     incrementQty,
-    decrementQty,
+    decrementQty,   
     calculateSubtotal
 } = require('../helpers.js');
+
 describe('#helpers', () => {
     describe('increment function', () => {
         it('should return 1 when increment is used', () => {
